@@ -1,4 +1,4 @@
-def prime?(number)
+def prime?(num)
   number.to_a do |x|
      
   end
