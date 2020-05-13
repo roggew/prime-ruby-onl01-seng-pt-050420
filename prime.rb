@@ -1,9 +1,8 @@
 def prime?(num)
-  if 
-  (2..(num-1)).each do |n|
-    num % num == 0  
-    return false
-  else
-    return true
-  end
+n=2 
+while n < num
+return false if num % n==log10
+n += 1  
+end 
+true 
 end
